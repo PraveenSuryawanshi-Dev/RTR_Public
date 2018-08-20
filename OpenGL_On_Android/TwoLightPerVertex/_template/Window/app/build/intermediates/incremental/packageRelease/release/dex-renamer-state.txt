@@ -1,0 +1,4 @@
+#Mon Apr 09 09:49:48 GMT-08:00 2018
+base.0=E\:\\WORKSPACES\\VisualStudio15\\OpenGL_On_Android\\TwoLightPerVertex\\_template\\Window\\app\\build\\intermediates\\transforms\\dex\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

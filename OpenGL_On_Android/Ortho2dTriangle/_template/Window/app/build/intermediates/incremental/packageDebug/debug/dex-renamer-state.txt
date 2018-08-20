@@ -1,0 +1,4 @@
+#Sun Jan 28 06:06:50 GMT-08:00 2018
+base.0=E\:\\WORKSPACES\\VisualStudio15\\OpenGL_On_Android\\Ortho2dTriangle\\_template\\Window\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

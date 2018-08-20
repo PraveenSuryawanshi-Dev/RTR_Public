@@ -1,0 +1,10 @@
+
+before:0 1 2
+before:3 4 5
+before:6 7 8
+before:9 10 11
+dup:0 3
+after:0 1 2
+after:0 4 5
+after:6 7 8
+after:9 10 11

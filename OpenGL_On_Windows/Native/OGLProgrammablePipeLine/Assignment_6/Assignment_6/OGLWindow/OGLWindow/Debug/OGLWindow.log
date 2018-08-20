@@ -1,0 +1,6 @@
+﻿  Source.cpp
+e:\workspaces\visualstudio15\opengl_win32_directx\oglprogrammablepipeline\assignment_6\assignment_6\oglwindow\oglwindow\vmath.h(980): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+e:\workspaces\visualstudio15\opengl_win32_directx\oglprogrammablepipeline\assignment_6\assignment_6\oglwindow\oglwindow\source.cpp(765): warning C4244: 'argument': conversion from 'GLfloat' to 'GLsizei', possible loss of data
+e:\workspaces\visualstudio15\opengl_win32_directx\oglprogrammablepipeline\assignment_6\assignment_6\oglwindow\oglwindow\source.cpp(765): warning C4244: 'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+  OGLWindow.vcxproj -> E:\WORKSPACES\VisualStudio15\OpenGL_win32_DirectX\OGLProgrammablePipeLine\Assignment_6\Assignment_6\OGLWindow\Debug\OGLWindow.exe
+  OGLWindow.vcxproj -> E:\WORKSPACES\VisualStudio15\OpenGL_win32_DirectX\OGLProgrammablePipeLine\Assignment_6\Assignment_6\OGLWindow\Debug\OGLWindow.pdb (Full PDB)

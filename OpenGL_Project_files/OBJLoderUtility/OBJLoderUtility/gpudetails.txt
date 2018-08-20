@@ -1,0 +1,70 @@
+IS GPU INFO ON: 1
+
+
+
+********* GPU  INFO **************
+
+
+
+
+
+
+DEVICE device_path: PCI\VEN_10DE&DEV_1140&SUBSYS_06521028&REV_A1\4&12C04C6D&0&00E4
+DEVICE description: NVIDIA GeForce 820M
+DEVICE get_has_display: 1
+DEVICE get_is_emulated: 0
+DEVICE get_supports_cpu_shared_memory: 1
+DEVICE get_version: 720896
+DEVICE get_supports_double_precision: 1
+DEVICE get_supports_limited_double_precision: 1
+
+
+
+DEVICE device_path: PCI\VEN_8086&DEV_0A16&SUBSYS_06521028&REV_0B\3&11583659&0&10
+DEVICE description: Intel(R) HD Graphics Family
+DEVICE get_has_display: 0
+DEVICE get_is_emulated: 0
+DEVICE get_supports_cpu_shared_memory: 1
+DEVICE get_version: 720897
+DEVICE get_supports_double_precision: 1
+DEVICE get_supports_limited_double_precision: 1
+
+
+
+DEVICE device_path: direct3d\warp
+DEVICE description: Microsoft Basic Render Driver
+DEVICE get_has_display: 0
+DEVICE get_is_emulated: 1
+DEVICE get_supports_cpu_shared_memory: 1
+DEVICE get_version: 720897
+DEVICE get_supports_double_precision: 1
+DEVICE get_supports_limited_double_precision: 1
+
+
+
+DEVICE device_path: direct3d\ref
+DEVICE description: Software Adapter
+DEVICE get_has_display: 1
+DEVICE get_is_emulated: 1
+DEVICE get_supports_cpu_shared_memory: 0
+DEVICE get_version: 720897
+DEVICE get_supports_double_precision: 1
+DEVICE get_supports_limited_double_precision: 1
+
+
+
+DEVICE device_path: cpu
+DEVICE description: CPU accelerator
+DEVICE get_has_display: 0
+DEVICE get_is_emulated: 1
+DEVICE get_supports_cpu_shared_memory: 1
+DEVICE get_version: 1
+DEVICE get_supports_double_precision: 0
+DEVICE get_supports_limited_double_precision: 0
+
+
+********* ACCELERATOR SETTING INFO **************
+
+
+
+ACCELERATOR SET: NVIDIA GeForce 820M

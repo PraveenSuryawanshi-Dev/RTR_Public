@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sat Mar 24 02:06:26 GMT-08:00 2018
+0.baseType=DIRECTORY
+0.base=E\:\\WORKSPACES\\VisualStudio15\\OpenGL_On_Android\\OneLightPerFragmentBlinnModification\\_template\\Window\\app\\build\\intermediates\\transforms\\dex\\release\\0
+0.path=classes.dex
+0.set=DEX
+count=1

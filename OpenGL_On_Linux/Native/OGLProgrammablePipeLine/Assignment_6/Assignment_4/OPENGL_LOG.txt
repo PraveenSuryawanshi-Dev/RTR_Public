@@ -1,0 +1,2 @@
+Log File Creted Successfully
+Vertex Shader Compilation Log : 3.30

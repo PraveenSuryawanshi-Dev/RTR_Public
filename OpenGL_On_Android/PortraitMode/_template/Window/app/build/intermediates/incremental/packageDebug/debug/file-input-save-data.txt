@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Dec 11 12:04:11 PST 2017
+0.baseType=DIRECTORY
+0.base=E\:\\WORKSPACES\\VisualStudio15\\OpenGL_On_Android\\PortraitMode\\_template\\Window\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

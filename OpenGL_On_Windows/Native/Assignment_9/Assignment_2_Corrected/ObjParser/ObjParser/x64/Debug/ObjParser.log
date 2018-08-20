@@ -1,0 +1,36 @@
+﻿Build started 12/23/2017 6:36:26 AM.
+     1>Project "E:\WORKSPACES\VisualStudio15\OpenGL_win32_DirectX\Assignment_9\Assignment_2\ObjParser\ObjParser\ObjParser.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>e:\workspaces\visualstudio15\opengl_win32_directx\assignment_9\assignment_2\objparser\objparser\source.cpp(310): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>e:\workspaces\visualstudio15\opengl_win32_directx\assignment_9\assignment_2\objparser\objparser\source.cpp(427): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>e:\workspaces\visualstudio15\opengl_win32_directx\assignment_9\assignment_2\objparser\objparser\source.cpp(438): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>e:\workspaces\visualstudio15\opengl_win32_directx\assignment_9\assignment_2\objparser\objparser\source.cpp(447): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>e:\workspaces\visualstudio15\opengl_win32_directx\assignment_9\assignment_2\objparser\objparser\source.cpp(398): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>e:\workspaces\visualstudio15\opengl_win32_directx\assignment_9\assignment_2\objparser\objparser\source.cpp(420): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(453): note: see declaration of 'strtok'
+     1>e:\workspaces\visualstudio15\opengl_win32_directx\assignment_9\assignment_2\objparser\objparser\source.cpp(427): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(453): note: see declaration of 'strtok'
+     1>e:\workspaces\visualstudio15\opengl_win32_directx\assignment_9\assignment_2\objparser\objparser\source.cpp(438): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(453): note: see declaration of 'strtok'
+     1>e:\workspaces\visualstudio15\opengl_win32_directx\assignment_9\assignment_2\objparser\objparser\source.cpp(447): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(453): note: see declaration of 'strtok'
+     1>e:\workspaces\visualstudio15\opengl_win32_directx\assignment_9\assignment_2\objparser\objparser\source.cpp(459): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(453): note: see declaration of 'strtok'
+     1>e:\workspaces\visualstudio15\opengl_win32_directx\assignment_9\assignment_2\objparser\objparser\source.cpp(471): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(453): note: see declaration of 'strtok'
+     1>e:\workspaces\visualstudio15\opengl_win32_directx\assignment_9\assignment_2\objparser\objparser\source.cpp(472): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(453): note: see declaration of 'strtok'
+     1>e:\workspaces\visualstudio15\opengl_win32_directx\assignment_9\assignment_2\objparser\objparser\source.cpp(473): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\string.h(453): note: see declaration of 'strtok'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\WORKSPACES\VisualStudio15\OpenGL_win32_DirectX\Assignment_9\Assignment_2\ObjParser\x64\Debug\ObjParser.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\WORKSPACES\VisualStudio15\OpenGL_win32_DirectX\Assignment_9\Assignment_2\ObjParser\x64\Debug\ObjParser.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\WORKSPACES\VisualStudio15\OpenGL_win32_DirectX\Assignment_9\Assignment_2\ObjParser\x64\Debug\ObjParser.lib" /MACHINE:X64 x64\Debug\Source.obj
+         ObjParser.vcxproj -> E:\WORKSPACES\VisualStudio15\OpenGL_win32_DirectX\Assignment_9\Assignment_2\ObjParser\x64\Debug\ObjParser.exe
+     1>Done Building Project "E:\WORKSPACES\VisualStudio15\OpenGL_win32_DirectX\Assignment_9\Assignment_2\ObjParser\ObjParser\ObjParser.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.06

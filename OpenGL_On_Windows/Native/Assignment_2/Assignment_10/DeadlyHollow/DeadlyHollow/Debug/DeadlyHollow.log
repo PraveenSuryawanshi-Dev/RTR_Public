@@ -1,0 +1,19 @@
+﻿Build started 8/19/2017 1:02:19 PM.
+     1>Project "E:\study\workspaces\UploadRTR\praveensuryawanshirtr\PraveenSuryawanshiRTRAssignments\OpenGL_On_Windows\Native\Assignment_2\Assignment_10\DeadlyHollow\DeadlyHollow\DeadlyHollow.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt DeadlyHollow.cpp
+         DeadlyHollow.cpp
+     1>e:\study\workspaces\uploadrtr\praveensuryawanshirtr\praveensuryawanshirtrassignments\opengl_on_windows\native\assignment_2\assignment_10\deadlyhollow\deadlyhollow\deadlyhollow.cpp(120): warning C4101: 'rect': unreferenced local variable
+     1>e:\study\workspaces\uploadrtr\praveensuryawanshirtr\praveensuryawanshirtrassignments\opengl_on_windows\native\assignment_2\assignment_10\deadlyhollow\deadlyhollow\deadlyhollow.cpp(346): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\study\workspaces\uploadrtr\praveensuryawanshirtr\praveensuryawanshirtrassignments\opengl_on_windows\native\assignment_2\assignment_10\deadlyhollow\deadlyhollow\deadlyhollow.cpp(347): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\study\workspaces\uploadrtr\praveensuryawanshirtr\praveensuryawanshirtrassignments\opengl_on_windows\native\assignment_2\assignment_10\deadlyhollow\deadlyhollow\deadlyhollow.cpp(349): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\study\workspaces\uploadrtr\praveensuryawanshirtr\praveensuryawanshirtrassignments\opengl_on_windows\native\assignment_2\assignment_10\deadlyhollow\deadlyhollow\deadlyhollow.cpp(361): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>e:\study\workspaces\uploadrtr\praveensuryawanshirtr\praveensuryawanshirtrassignments\opengl_on_windows\native\assignment_2\assignment_10\deadlyhollow\deadlyhollow\deadlyhollow.cpp(362): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\study\workspaces\UploadRTR\praveensuryawanshirtr\PraveenSuryawanshiRTRAssignments\OpenGL_On_Windows\Native\Assignment_2\Assignment_10\DeadlyHollow\Debug\DeadlyHollow.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\study\workspaces\UploadRTR\praveensuryawanshirtr\PraveenSuryawanshiRTRAssignments\OpenGL_On_Windows\Native\Assignment_2\Assignment_10\DeadlyHollow\Debug\DeadlyHollow.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\study\workspaces\UploadRTR\praveensuryawanshirtr\PraveenSuryawanshiRTRAssignments\OpenGL_On_Windows\Native\Assignment_2\Assignment_10\DeadlyHollow\Debug\DeadlyHollow.lib" /MACHINE:X86 Debug\DeadlyHollow.obj
+         DeadlyHollow.vcxproj -> E:\study\workspaces\UploadRTR\praveensuryawanshirtr\PraveenSuryawanshiRTRAssignments\OpenGL_On_Windows\Native\Assignment_2\Assignment_10\DeadlyHollow\Debug\DeadlyHollow.exe
+     1>Done Building Project "E:\study\workspaces\UploadRTR\praveensuryawanshirtr\PraveenSuryawanshiRTRAssignments\OpenGL_On_Windows\Native\Assignment_2\Assignment_10\DeadlyHollow\DeadlyHollow\DeadlyHollow.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.62

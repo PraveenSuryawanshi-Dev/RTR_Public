@@ -1,0 +1,15 @@
+﻿Build started 8/11/2017 8:21:35 AM.
+     1>Project "E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\Assignment_2\Native\Functions\CirlceWithGLLines\CirlceWithGLLines\CirlceWithGLLines.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt CircleWithGLLinesFunction.cpp
+         CircleWithGLLinesFunction.cpp
+     1>e:\study\workspaces\visual_studio\opengl_win32_directx\assignment_2\native\functions\cirlcewithgllines\cirlcewithgllines\circlewithgllinesfunction.cpp(120): warning C4101: 'rect': unreferenced local variable
+     1>e:\study\workspaces\visual_studio\opengl_win32_directx\assignment_2\native\functions\cirlcewithgllines\cirlcewithgllines\circlewithgllinesfunction.cpp(318): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\Assignment_2\Native\Functions\CirlceWithGLLines\Debug\CirlceWithGLLines.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\Assignment_2\Native\Functions\CirlceWithGLLines\Debug\CirlceWithGLLines.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\Assignment_2\Native\Functions\CirlceWithGLLines\Debug\CirlceWithGLLines.lib" /MACHINE:X86 Debug\CircleWithGLLinesFunction.obj
+         CirlceWithGLLines.vcxproj -> E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\Assignment_2\Native\Functions\CirlceWithGLLines\Debug\CirlceWithGLLines.exe
+     1>Done Building Project "E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\Assignment_2\Native\Functions\CirlceWithGLLines\CirlceWithGLLines\CirlceWithGLLines.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.39

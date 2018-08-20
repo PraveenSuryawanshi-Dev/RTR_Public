@@ -1,0 +1,1 @@
+LOG Faile to Initialize DX functionOn_Windows\Assignment_3\Assignment_2\PS(1,20-24): error X3502: 'main': input parameter 'color' missing semantics

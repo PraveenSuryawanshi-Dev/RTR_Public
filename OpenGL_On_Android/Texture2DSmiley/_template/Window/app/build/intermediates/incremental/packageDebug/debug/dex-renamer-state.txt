@@ -1,0 +1,4 @@
+#Sat Feb 24 01:39:41 GMT-08:00 2018
+base.0=E\:\\WORKSPACES\\VisualStudio15\\OpenGL_On_Android\\Texture2DSmiley\\_template\\Window\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

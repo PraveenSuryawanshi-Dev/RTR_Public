@@ -1,0 +1,1 @@
+LOG Faile to Initialize DX function

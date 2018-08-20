@@ -1,0 +1,18 @@
+_verticesUnique :3  121.000000 0.000000 121.000000
+_verticesUnique :6  121.000000 0.000000 121.000000
+_verticesUnique :9  121.000000 0.000000 121.000000
+_verticesUnique :11  121.000000 1.000000 121.000000
+_verticesUnique :7  121.000000 2.000000 121.000000
+_verticesUnique :8  121.000000 4.000000 121.000000
+_verticesUnique :10  121.000000 5.000000 121.000000
+*****************************
+unique vertices: 0 1 0
+unique vertices: -1 -1 1
+unique vertices: 1 -1 1
+unique vertices: 1 -1 -1
+unique vertices: -1 -1 -1
+*****************************
+indices : 0 1 2
+indices : 0 3 4
+indices : 0 2 3
+indices : 0 4 1

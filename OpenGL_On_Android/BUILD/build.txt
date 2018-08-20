@@ -1,0 +1,6 @@
+adb -d install -r E:\WORKSPACES\VisualStudio15\OpenGL_On_Android\Ortho2dTriangle\_template\Window\app\build\outputs\apk\debug\app-debug.apk
+E:\WORKSPACES\VisualStudio15\OpenGL_On_Android\Ortho2dTria...ebug.apk: 1 file pushed. 2.2 MB/s (183518 bytes in 0.078s)
+        pkg: /data/local/tmp/app-debug.apk
+Success
+
+C:\Users\Praveen Suryawanshi\AppData\Local\Android\Sdk\platform-tools>adb logcat | findstr /i PRAVEEN

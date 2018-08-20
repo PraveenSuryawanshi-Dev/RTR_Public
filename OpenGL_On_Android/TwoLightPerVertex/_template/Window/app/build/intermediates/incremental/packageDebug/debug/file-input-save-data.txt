@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Apr 09 09:49:47 GMT-08:00 2018
+0.baseType=DIRECTORY
+0.base=E\:\\WORKSPACES\\VisualStudio15\\OpenGL_On_Android\\TwoLightPerVertex\\_template\\Window\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

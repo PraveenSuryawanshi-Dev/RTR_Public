@@ -1,0 +1,13 @@
+﻿Build started 8/11/2017 7:44:12 AM.
+     1>Project "E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\Assignment_2\GLUT\Assignment_1\Assignment_1\HorizontalLine\OGL\OGL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\freeglut\freeglut\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt HorizontalLine.cpp
+         HorizontalLine.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\Assignment_2\GLUT\Assignment_1\Assignment_1\HorizontalLine\Debug\OGL.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\freeglut\freeglut\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\Assignment_2\GLUT\Assignment_1\Assignment_1\HorizontalLine\Debug\OGL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\Assignment_2\GLUT\Assignment_1\Assignment_1\HorizontalLine\Debug\OGL.lib" /MACHINE:X86 Debug\HorizontalLine.obj
+         OGL.vcxproj -> E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\Assignment_2\GLUT\Assignment_1\Assignment_1\HorizontalLine\Debug\OGL.exe
+     1>Done Building Project "E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\Assignment_2\GLUT\Assignment_1\Assignment_1\HorizontalLine\OGL\OGL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.68

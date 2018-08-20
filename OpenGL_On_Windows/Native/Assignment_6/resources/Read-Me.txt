@@ -1,0 +1,3 @@
+Note by Gokhale Sir:
+
+In the video of "India_Animation" assignment, the speed of transformations is increased to reduce the size of the video. You have to decrease their speed to some extent so that it looks likable to others(your friends, family, etc.), not you. Keep their speed normal.

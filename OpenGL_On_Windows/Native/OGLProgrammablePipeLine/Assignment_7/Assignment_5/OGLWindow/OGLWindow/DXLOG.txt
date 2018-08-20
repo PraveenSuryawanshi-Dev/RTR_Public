@@ -1,0 +1,11 @@
+
+choosen driver is of : hardware type. 
+
+the supported highest feature level is : 11.0 .
+
+CreateRenderTargetView() Succeeded.
+
+
+Resize() Succeeded.
+
+Initialize() Succeeded.

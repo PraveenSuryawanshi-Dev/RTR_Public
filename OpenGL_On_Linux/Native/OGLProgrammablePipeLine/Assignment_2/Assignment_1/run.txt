@@ -1,0 +1,4 @@
+g++ -o XWindowOGL XWindowOGL.cpp -lX11 -lGL -lGLEW
+
+gksudo nautilus
+

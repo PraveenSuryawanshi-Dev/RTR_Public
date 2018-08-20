@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Jan 03 08:03:37 PST 2018
+0.baseType=DIRECTORY
+0.base=E\:\\WORKSPACES\\VisualStudio15\\OpenGL_On_Android\\HelloWorld\\_template\\Window\\app\\build\\intermediates\\transforms\\dex\\release\\0
+0.path=classes.dex
+0.set=DEX
+count=1

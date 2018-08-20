@@ -1,0 +1,18 @@
+﻿Build started 8/19/2017 12:06:07 PM.
+     1>Project "E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\Assignment_6\DynamicINDIA\DynamicINDIA\DynamicINDIA.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt dynamicINDIA.cpp
+         dynamicINDIA.cpp
+     1>e:\study\workspaces\visual_studio\opengl_win32_directx\assignment_6\dynamicindia\dynamicindia\dynamicindia.cpp(163): warning C4101: 'rect': unreferenced local variable
+     1>e:\study\workspaces\visual_studio\opengl_win32_directx\assignment_6\dynamicindia\dynamicindia\dynamicindia.cpp(485): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>e:\study\workspaces\visual_studio\opengl_win32_directx\assignment_6\dynamicindia\dynamicindia\dynamicindia.cpp(488): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>e:\study\workspaces\visual_studio\opengl_win32_directx\assignment_6\dynamicindia\dynamicindia\dynamicindia.cpp(569): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+     1>e:\study\workspaces\visual_studio\opengl_win32_directx\assignment_6\dynamicindia\dynamicindia\dynamicindia.cpp(576): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\Assignment_6\DynamicINDIA\Debug\DynamicINDIA.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\Assignment_6\DynamicINDIA\Debug\DynamicINDIA.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\Assignment_6\DynamicINDIA\Debug\DynamicINDIA.lib" /MACHINE:X86 Debug\dynamicINDIA.obj
+         DynamicINDIA.vcxproj -> E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\Assignment_6\DynamicINDIA\Debug\DynamicINDIA.exe
+     1>Done Building Project "E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\Assignment_6\DynamicINDIA\DynamicINDIA\DynamicINDIA.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.28

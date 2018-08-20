@@ -1,0 +1,16 @@
+﻿Build started 7/15/2017 12:44:49 PM.
+     1>Project "E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\MultiColoredConecentricCircles\MultiColoredConecentricCircles\MultiColoredConecentricCircles.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt MultiColoredConcentricCircles.cpp
+         MultiColoredConcentricCircles.cpp
+     1>e:\study\workspaces\visual_studio\opengl_win32_directx\multicoloredconecentriccircles\multicoloredconecentriccircles\multicoloredconcentriccircles.cpp(106): warning C4101: 'rect': unreferenced local variable
+     1>e:\study\workspaces\visual_studio\opengl_win32_directx\multicoloredconecentriccircles\multicoloredconecentriccircles\multicoloredconcentriccircles.cpp(309): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+     1>e:\study\workspaces\visual_studio\opengl_win32_directx\multicoloredconecentriccircles\multicoloredconecentriccircles\multicoloredconcentriccircles.cpp(310): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\MultiColoredConecentricCircles\Debug\MultiColoredConecentricCircles.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\MultiColoredConecentricCircles\Debug\MultiColoredConecentricCircles.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\MultiColoredConecentricCircles\Debug\MultiColoredConecentricCircles.lib" /MACHINE:X86 Debug\MultiColoredConcentricCircles.obj
+         MultiColoredConecentricCircles.vcxproj -> E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\MultiColoredConecentricCircles\Debug\MultiColoredConecentricCircles.exe
+     1>Done Building Project "E:\study\workspaces\visual_studio\OpenGL_win32_DirectX\MultiColoredConecentricCircles\MultiColoredConecentricCircles\MultiColoredConecentricCircles.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:30.06

@@ -1,0 +1,15 @@
+﻿Build started 8/19/2017 1:09:50 PM.
+     1>Project "E:\study\workspaces\UploadRTR\praveensuryawanshirtr\PraveenSuryawanshiRTRAssignments\OpenGL_On_Windows\GLUT\Assignment_2\Assignment_10\DeadlyHollow\OGL\OGL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\freeglut\freeglut\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt MultiColorConcentricCircles.cpp
+         MultiColorConcentricCircles.cpp
+     1>e:\study\workspaces\uploadrtr\praveensuryawanshirtr\praveensuryawanshirtrassignments\opengl_on_windows\glut\assignment_2\assignment_10\deadlyhollow\ogl\multicolorconcentriccircles.cpp(109): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\study\workspaces\UploadRTR\praveensuryawanshirtr\PraveenSuryawanshiRTRAssignments\OpenGL_On_Windows\GLUT\Assignment_2\Assignment_10\DeadlyHollow\Debug\OGL.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\freeglut\freeglut\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\study\workspaces\UploadRTR\praveensuryawanshirtr\PraveenSuryawanshiRTRAssignments\OpenGL_On_Windows\GLUT\Assignment_2\Assignment_10\DeadlyHollow\Debug\OGL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\study\workspaces\UploadRTR\praveensuryawanshirtr\PraveenSuryawanshiRTRAssignments\OpenGL_On_Windows\GLUT\Assignment_2\Assignment_10\DeadlyHollow\Debug\OGL.lib" /MACHINE:X86 Debug\MultiColorConcentricCircles.obj
+         LINK : E:\study\workspaces\UploadRTR\praveensuryawanshirtr\PraveenSuryawanshiRTRAssignments\OpenGL_On_Windows\GLUT\Assignment_2\Assignment_10\DeadlyHollow\Debug\OGL.exe not found or not built by the last incremental link; performing full link
+         OGL.vcxproj -> E:\study\workspaces\UploadRTR\praveensuryawanshirtr\PraveenSuryawanshiRTRAssignments\OpenGL_On_Windows\GLUT\Assignment_2\Assignment_10\DeadlyHollow\Debug\OGL.exe
+     1>Done Building Project "E:\study\workspaces\UploadRTR\praveensuryawanshirtr\PraveenSuryawanshiRTRAssignments\OpenGL_On_Windows\GLUT\Assignment_2\Assignment_10\DeadlyHollow\OGL\OGL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.86

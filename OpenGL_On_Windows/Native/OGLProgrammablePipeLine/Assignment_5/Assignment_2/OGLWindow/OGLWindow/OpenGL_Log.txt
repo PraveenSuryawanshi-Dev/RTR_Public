@@ -1,0 +1,3 @@
+Log File Created Successfully 
+Vertex Shader Compilation Log : 4.30 - Build 20.19.15.4531
+Log File Successfully Closed 

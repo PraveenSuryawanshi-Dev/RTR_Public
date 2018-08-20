@@ -1,0 +1,15 @@
+﻿Build started 12/1/2017 7:08:27 AM.
+     1>Project "E:\WORKSPACES\VisualStudio15\OpenGL_win32_DirectX\Assignment_8\Assignment_1\Sun_Lighting\Sun_Lighting\Sun_Lighting.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>e:\workspaces\visualstudio15\opengl_win32_directx\assignment_8\assignment_1\sun_lighting\sun_lighting\source.cpp(138): warning C4101: 'rect': unreferenced local variable
+     1>e:\workspaces\visualstudio15\opengl_win32_directx\assignment_8\assignment_1\sun_lighting\sun_lighting\source.cpp(230): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\WORKSPACES\VisualStudio15\OpenGL_win32_DirectX\Assignment_8\Assignment_1\Sun_Lighting\Debug\Sun_Lighting.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\WORKSPACES\VisualStudio15\OpenGL_win32_DirectX\Assignment_8\Assignment_1\Sun_Lighting\Debug\Sun_Lighting.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\WORKSPACES\VisualStudio15\OpenGL_win32_DirectX\Assignment_8\Assignment_1\Sun_Lighting\Debug\Sun_Lighting.lib" /MACHINE:X86 Debug\Source.obj
+         Sun_Lighting.vcxproj -> E:\WORKSPACES\VisualStudio15\OpenGL_win32_DirectX\Assignment_8\Assignment_1\Sun_Lighting\Debug\Sun_Lighting.exe
+     1>Done Building Project "E:\WORKSPACES\VisualStudio15\OpenGL_win32_DirectX\Assignment_8\Assignment_1\Sun_Lighting\Sun_Lighting\Sun_Lighting.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.68

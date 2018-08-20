@@ -1,0 +1,9 @@
+praveen@praveen-Inspiron-3542:~/OpenGl/Assignment_1/Assignment_12$ gcc -c -Wall -Werror -fPIC addition.c
+praveen@praveen-Inspiron-3542:~/OpenGl/Assignment_1/Assignment_12$ gcc -shared -o  addition.so addition.o
+praveen@praveen-Inspiron-3542:~/OpenGl/Assignment_1/Assignment_12$ gcc -o Math Math.c -L/home/praveen/OpenGl/Assignment_1/Assignment_12/addition.so  -ldl
+praveen@praveen-Inspiron-3542:~/OpenGl/Assignment_1/Assignment_12$ export LD_LIBRARY_PATH=/home/praveen/OpenGl/Assignment_1/Assignment_12/addition.so:$LDD_LIBRARY_PATH
+praveen@praveen-Inspiron-3542:~/OpenGl/Assignment_1/Assignment_12$ ./Math 
+
+Result is 6praveen@praveen-Inspiron-3542:~/OpenGl/Assignment_1/Assignment_12$ 
+
+

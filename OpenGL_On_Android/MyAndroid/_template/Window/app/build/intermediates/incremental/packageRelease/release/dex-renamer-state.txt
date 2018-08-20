@@ -1,0 +1,4 @@
+#Mon Dec 11 11:48:01 PST 2017
+base.0=E\:\\WORKSPACES\\VisualStudio15\\OpenGL_On_Android\\MyAndroid\\_template\\Window\\app\\build\\intermediates\\transforms\\dex\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

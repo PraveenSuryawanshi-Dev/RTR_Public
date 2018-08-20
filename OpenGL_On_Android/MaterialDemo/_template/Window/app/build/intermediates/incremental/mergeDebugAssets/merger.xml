@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\WORKSPACES\VisualStudio15\OpenGL_On_Android\MaterialDemo\_template\Window\app\src\main\assets"/><source path="E:\WORKSPACES\VisualStudio15\OpenGL_On_Android\MaterialDemo\_template\Window\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\WORKSPACES\VisualStudio15\OpenGL_On_Android\MaterialDemo\_template\Window\app\src\debug\assets"/></dataSet></merger>

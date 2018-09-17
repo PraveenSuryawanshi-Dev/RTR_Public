@@ -1,0 +1,81 @@
+Assuming On Windows You Are All Doing 32 Bit Win32 Project :
+============================================================
+01) Use Same 3 Files : Sphere.h, Sphere.lib And Sphere.dll
+    That Were From OpenGLL.
+
+02) Copy Sphere.dll To Windows\SysWOW64 Directory.
+
+03) Copy Sphere.h And Sphere.lib To Your Project's Directory 
+    ( Not 'Debug' Directory )
+
+04) Add To Project And Include Sphere.h :
+
+    #include "Sphere.h"
+
+05) Link Sphere.lib :
+
+    #pragma comment(lib,"Sphere.lib")
+
+06) Declare Following Variables Globally :
+    [ Only New Variables Are Mentioned ]
+
+    ID3D11Buffer *gpID3D11Buffer_IndexBuffer = NULL;
+
+    float sphere_vertices[1146];
+    float sphere_normals[1146];
+    float sphere_textures[764];
+    unsigned short sphere_elements[2280];
+    unsigned int gNumElements;
+    unsigned int gNumVertices;
+
+07) Then In initialize(), Where We Usually Do Vertices Declarations, 
+    Call Following Functions :
+    [ Only New Code Is Mentioned ]
+
+    getSphereVertexData(sphere_vertices, sphere_normals, sphere_textures, sphere_elements);
+    gNumVertices = getNumberOfSphereVertices();
+    gNumElements = getNumberOfSphereElements();
+
+* Steps 1 To 7 Are Same From OpenGL.
+
+08) Now Use These Arrays To Create Your VB & IB :
+    i.e. VB For Position, VB For Normals, IB For Elements.
+    [ Only New Code Is Mentioned ]
+
+	// create index buffer
+	ZeroMemory(&bufferDesc, sizeof(D3D11_BUFFER_DESC));
+	bufferDesc.Usage = D3D11_USAGE_DYNAMIC; // write access access by CPU and GPU
+	bufferDesc.ByteWidth = gNumElements * sizeof(short);
+	bufferDesc.BindFlags = D3D11_BIND_INDEX_BUFFER;
+	bufferDesc.CPUAccessFlags = D3D11_CPU_ACCESS_WRITE; // allow CPU to write into this buffer
+	hr = gpID3D11Device->CreateBuffer(&bufferDesc, NULL, &gpID3D11Buffer_IndexBuffer);
+	if (FAILED(hr))
+	{
+	}
+	else
+	{
+	}
+
+	// copy indices into above index buffer
+	ZeroMemory(&mappedSubresource, sizeof(D3D11_MAPPED_SUBRESOURCE));
+	gpID3D11DeviceContext->Map(gpID3D11Buffer_IndexBuffer, NULL, D3D11_MAP_WRITE_DISCARD, NULL, &mappedSubresource); // map buffer
+	memcpy(mappedSubresource.pData, sphere_elements, gNumElements * sizeof(short));
+	gpID3D11DeviceContext->Unmap(gpID3D11Buffer_IndexBuffer, NULL); // unmap buffer
+
+09) In display(), Use Following Calls To Display The Sphere :
+    [ Only New Code Is Mentioned ]
+
+	// set index buffer
+	gpID3D11DeviceContext->IASetIndexBuffer(gpID3D11Buffer_IndexBuffer, DXGI_FORMAT_R16_UINT, 0); // R16 maps with 'short'
+
+        // draw
+	gpID3D11DeviceContext->DrawIndexed(gNumElements, 0, 0);
+
+10) In uninitialize(), Do Usual Cleanup Of VB And IB.
+    [ Only New Code Is Mentioned ]
+
+	if (gpID3D11Buffer_IndexBuffer)
+	{
+		gpID3D11Buffer_IndexBuffer->Release();
+		gpID3D11Buffer_IndexBuffer = NULL;
+	}

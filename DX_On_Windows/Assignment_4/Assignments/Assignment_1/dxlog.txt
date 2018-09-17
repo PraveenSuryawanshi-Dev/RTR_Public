@@ -1,0 +1,1 @@
+LOG Initialize : D3D11_FEATURE_LEVEL_11_0 found

@@ -262,7 +262,7 @@ HRESULT LoadD3DCheckerBoardTexture(ID3D11ShaderResourceView **ppID3D11ShaderReso
 	bih.biWidth = TEX_WIDTH;
 	bih.biHeight = TEX_HEIGHT;
 	bih.biPlanes = 1;
-	bih.biBitCount = 4;
+	bih.biBitCount = 32;
 
 	bi.bmiHeader = bih;
 
@@ -678,27 +678,27 @@ void RenderQuad()
 {
 	D3D11_MAPPED_SUBRESOURCE mappedSubresource;
 
-	float cube_vertices[] =
+	float quad_vertices[] =
 	{
 		/*TRIANGLE FIRST FRONT*/
 		//LEFT TOP
-		-1.0f, 1.0f, 0.0f,
+		-2.0f,1.0f,0.0f,
 		//RIGHT TOP
-		1.0f,1.0f,0.0f,
+		0.0f,1.0f,0.0f,
 		//LEFT BOTTOM
-		-1.0f,-1.0f,0.0f,
+		-2.0f,-1.0f,0.0f,
 
 		/*TRIANGLE SECOND FRONT*/
 		//LEFT BOTTOM
-		-1.0f,-1.0f,0.0f,
+		-2.0f,-1.0f,0.0f,
 		//RIGHT TOP
-		1.0f,1.0f,0.0f,
+		0.0f,1.0f,0.0f,
 		//RIGHT BOTTOM
-		1.0f,-1.0f,0.0f
+		0.0f,-1.0f,0.0f
 	};
 
 
-	const FLOAT cube_texcords[] =
+	const FLOAT quad_texcords[] =
 	{
 		0.0f, 0.0f,
 		1.0f,0.0f,
@@ -712,13 +712,13 @@ void RenderQuad()
 
 	ZeroMemory(&mappedSubresource, sizeof(D3D11_MAPPED_SUBRESOURCE));
 	pID3D11DeviceContext->Map(pID3D11BufferQuadVertices, NULL, D3D11_MAP_WRITE_DISCARD, 0, &mappedSubresource);
-	memcpy(mappedSubresource.pData, cube_vertices, sizeof(cube_vertices));
+	memcpy(mappedSubresource.pData, quad_vertices, sizeof(quad_vertices));
 	pID3D11DeviceContext->Unmap(pID3D11BufferQuadVertices, NULL);
 
 	
 	ZeroMemory(&mappedSubresource, sizeof(D3D11_MAPPED_SUBRESOURCE));
 	pID3D11DeviceContext->Map(pID3D11BufferQuadTexCoord, NULL, D3D11_MAP_WRITE_DISCARD, 0, &mappedSubresource);
-	memcpy(mappedSubresource.pData, cube_texcords, sizeof(cube_texcords));
+	memcpy(mappedSubresource.pData, quad_texcords, sizeof(quad_texcords));
 	pID3D11DeviceContext->Unmap(pID3D11BufferQuadTexCoord, NULL);
 
 
@@ -731,10 +731,7 @@ void RenderQuad()
 	CBUFFER cbuffer;
 
 	ZeroMemory(&cbuffer, sizeof(CBUFFER));
-	2.41421f, 1.0f, -1.41421f,
-		1.0f, 1.0f, 0.0f,
-		1.0f, -1.0f, 0.0f,
-		2.41421f, -1.0f, -1.41421f
+	
 
 	pID3D11DeviceContext->IASetVertexBuffers(0, 1, &pID3D11BufferQuadVertices, &strideVertices, &startOffsetVertices);
 	pID3D11DeviceContext->IASetVertexBuffers(1, 1, &pID3D11BufferQuadTexCoord, &strideTexcord, &startOffsetTexcord);
@@ -755,13 +752,61 @@ void RenderQuad()
 
 	XMMATRIX xmWordViewProjectionMatrix = XMMatrixIdentity();
 
-	xmWorldMatrix = XMMatrixTranslation(0.0f, 0.0f, 7.0f);
+	xmWorldMatrix = XMMatrixTranslation(0.0f, 0.0f, 6.0f);
 
 	xmWordViewProjectionMatrix = xmWorldMatrix * xmViewMatrix  * xmPerspectiveProjectionMatrix;
 
 	cbuffer.ModelViewProjectionMatrixl = xmWordViewProjectionMatrix;
 
 	pID3D11DeviceContext->UpdateSubresource(pID3D11ConstantBuffer, 0, NULL, &cbuffer, 0, 0);
+
+	pID3D11DeviceContext->Draw(6, 0);
+	pID3D11DeviceContext->Draw(6, 6);
+	pID3D11DeviceContext->Draw(6, 12);
+	pID3D11DeviceContext->Draw(6, 18);
+	pID3D11DeviceContext->Draw(6, 24);
+	pID3D11DeviceContext->Draw(6, 30);
+
+
+	//Draw Deviated Quad.
+
+	float quad_vertices_deviated[] =
+	{
+		/*TRIANGLE FIRST FRONT*/
+		//right TOP
+		1.0f, 1.0f, 0.0f,
+		//RIGHT TOP Depth
+		2.41421f, 1.0f, 1.41421f,
+		//LEFT BOTTOM
+		1.0f, -1.0f, 0.0f,
+
+		/*TRIANGLE SECOND FRONT*/
+		//Riht BOTTOM
+		1.0f, -1.0f, 0.0f,
+		//RIGHT TOP Depth
+		2.41421f, 1.0f, 1.41421f,
+		//RIGHT BOTTOM Depth
+		2.41421f, -1.0f, 1.41421f,
+	};
+
+	ZeroMemory(&mappedSubresource, sizeof(D3D11_MAPPED_SUBRESOURCE));
+	pID3D11DeviceContext->Map(pID3D11BufferQuadVertices, NULL, D3D11_MAP_WRITE_DISCARD, 0, &mappedSubresource);
+	memcpy(mappedSubresource.pData, quad_vertices_deviated, sizeof(quad_vertices_deviated));
+	pID3D11DeviceContext->Unmap(pID3D11BufferQuadVertices, NULL);
+
+
+	
+
+	pID3D11DeviceContext->IASetVertexBuffers(0, 1, &pID3D11BufferQuadVertices, &strideVertices, &startOffsetVertices);
+	pID3D11DeviceContext->IASetVertexBuffers(1, 1, &pID3D11BufferQuadTexCoord, &strideTexcord, &startOffsetTexcord);
+
+	pID3D11DeviceContext->PSSetShaderResources(0, 1, &pID3D11ShaderResourceViewCheckerBoard);
+
+	//BIND SAMPLER
+	pID3D11DeviceContext->PSSetSamplers(0, 1, &pID3D11SamplerState);
+
+
+	pID3D11DeviceContext->IASetPrimitiveTopology(D3D11_PRIMITIVE_TOPOLOGY_TRIANGLELIST);
 
 	pID3D11DeviceContext->Draw(6, 0);
 	pID3D11DeviceContext->Draw(6, 6);
